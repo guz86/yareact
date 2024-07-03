@@ -1,0 +1,36 @@
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #292929;
+    border-radius: 8px;
+    background-color: #292929;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .review input[type="text"],
+  .review input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #4e4e4e;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .review input[type="text"]:focus,
+  .review input[type="number"]:focus {
+    border-color: #b9b9b9;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.25);
+  }
+  
