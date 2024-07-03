@@ -1,6 +1,16 @@
 # React+Vite
 Simple ReactApp with movies data
-##  setup
+
+## SETUP AND RUN
+```bash
 cd ya-app
+```
+```bash
 npm i
+```
+```bash
 npm run dev
+```
+
+
+
